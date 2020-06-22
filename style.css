@@ -233,7 +233,21 @@ ion-icon {
     width: 80%;
   }
 }
+
 @media (max-width: 1000px) {
+  .logo {
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+  }
+  .tryForFree-btn {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 10px;
+  }
+  .tryForFree-btn button {
+    padding: 5px 10px 5px 10px;
+  }
   .head-02 {
     display: flex;
     flex-direction: column;
@@ -284,6 +298,27 @@ ion-icon {
   .copyright {
     text-align: center;
     align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 400px) {
+  .head-01 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .logo {
+    margin-bottom: 30px;
+  }
+  .tryForFree-btn {
+    width: 100%;
+    justify-content: center;
+  }
+  .tryForFree-btn button {
+    width: 50%;
+    padding: 10px;
     justify-content: center;
   }
 }
