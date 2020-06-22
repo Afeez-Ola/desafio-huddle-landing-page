@@ -103,7 +103,7 @@ header {
   justify-content: center;
 }
 .content-left img {
-  width: 80%;
+  width: 70%;
   height: auto;
 }
 .content-text {
@@ -130,9 +130,9 @@ h1 {
   border-radius: 20px;
   padding: 50px;
   font-family: "Poppins", sans-serif;
+  background-color: white;
   position: relative;
   top: 220px;
-  background-color: white;
 }
 .card button {
   border: none;
@@ -223,4 +223,57 @@ ion-icon {
   display: flex;
   align-items: center;
   padding: 20px;
+}
+
+/************ MEDIAQUERY ************/
+@media (max-width: 1500px) {
+  .card {
+    width: 80%;
+  }
+}
+@media (max-width: 1000px) {
+  .head-02 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .allContent {
+    display: flex;
+    flex-direction: column-reverse;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+  }
+  .content-02 {
+    flex-direction: column;
+  }
+  .content-left img {
+    margin-bottom: 50px;
+  }
+  .card {
+    width: 90%;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .foot-location-02 .location-img {
+    align-items: flex-start;
+  }
+
+  .foot-03,
+  .foot-02 {
+    margin-bottom: 50px;
+    align-items: flex-start;
+  }
+  .foot04-icons,
+  .copyright {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
 }
