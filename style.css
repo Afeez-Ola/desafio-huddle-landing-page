@@ -12,8 +12,10 @@ header {
 .head-01 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  width: 100%;
-  padding: 50px;
+  width: 90%;
+  padding-top: 50px;
+  margin: auto;
+  margin-bottom: 50px;
 }
 .logo {
   display: flex;
@@ -238,10 +240,11 @@ ion-icon {
     text-align: center;
   }
   .allContent {
+    width: 90%;
     display: flex;
     flex-direction: column-reverse;
     height: auto;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
   }
   .content-02 {
@@ -264,11 +267,18 @@ ion-icon {
   .foot-location-02 .location-img {
     align-items: flex-start;
   }
-
+  .foot-01 {
+    margin-top: 50px;
+  }
+  .foot-01,
   .foot-03,
   .foot-02 {
-    margin-bottom: 50px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    text-align: left;
     align-items: flex-start;
+    width: 100%;
+    padding: 0px;
   }
   .foot04-icons,
   .copyright {
