@@ -271,6 +271,12 @@ ion-icon {
   .card {
     width: 90%;
   }
+  .card h1 {
+    font-size: 17px;
+  }
+  .card button {
+    padding: 10px;
+  }
   footer {
     display: flex;
     flex-direction: column;
